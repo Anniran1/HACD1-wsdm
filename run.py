@@ -41,7 +41,7 @@ if __name__ == "__main__":
     parser.add_argument("--dataset", type=str, help="dataset", default="cora")
     parser.add_argument("--field", type=list, help='high_hop adj weight', default=[1, 1e-1])
     parser.add_argument("--learning_rate", type=float, help='learning rate', default=0.01)
-    parser.add_argument("--weightdecay", type=int, help='weight decay', default=0)
+    parser.add_argument("--weightdecay", type=int, help='weight decay', default=0.2)
     parser.add_argument("--num_epoch", type=int, help='training epoch', default=400)
     parser.add_argument("--par1", type=float, help='loss para', default=1e3)
     parser.add_argument("--par2", type=float, help='loss para', default=1e3)
